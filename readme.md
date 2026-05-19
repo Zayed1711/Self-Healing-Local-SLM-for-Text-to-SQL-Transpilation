@@ -18,21 +18,23 @@ To overcome the inherent hallucination risks of SLMs, this project introduces an
 **1. Clone the repository and install dependencies:**
 ```bash
 pip install -r requirements.txt
+```
 
 **2. Setup the Local Database:**
 Run the reset script to generate the local SQLite database (inventory_database.db) with dummy data.
 ```bash
 python reset_db.py
+```
 
 **3. Run the Benchmark Tests (Optional):**
 To see the self-correction engine in action via the terminal:
 ```bash
 python benchmark.py
-
+```
 **4. Launch the Web Interface:**
 ```bash
 streamlit run app.py
-
+```
 🛠️ Tech Stack
 
 >UI: Streamlit
